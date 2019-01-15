@@ -7,8 +7,8 @@ import urllib.request
 #NMT:인공신경망(문장 전체를 바탕으로 번역 수행,SMT 번역보다 더욱 정확)
 #SMT:통계기반(속도 빠름, 신조어 번역에 장점)
 def papago_translate_text(text):
-    client_id = 'gsqIEpceMVBCQy_VZBzq'
-    client_secret = 'DH99oGELVB'
+    client_id = 'your id'
+    client_secret = 'your pw'
     encText = urllib.parse.quote(text)
     #한국어를 영어로 바꿔
     data = "source=ko&target=en&text=" + encText
