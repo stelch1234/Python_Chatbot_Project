@@ -1,2 +1,3 @@
 # Chatbot_Project
-chatbot project 
+
+translation : 데이터 en -> ko 번역 
